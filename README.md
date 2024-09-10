@@ -21,32 +21,19 @@ Before you begin, ensure you have the following installed on your system:
 
 ### Installation
 
+1. Clone the project
 ```bash
-#!/bin/bash
+    git clone https://github.com/nabinupreti/django-todo-app.git
+```
 
-# Clone the project
-git clone https://github.com/nabinupreti/django-todo-app.git
+2. Navigate to the project directory
+```bash
+    cd django-todo-app
+```
 
-# Navigate to the project directory
-cd django-todo-app
-
-# Set up a virtual environment
-python3 -m venv venv
-source venv/bin/activate  # Linux/macOS
-# OR for Windows
-# venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run migrations
-python manage.py migrate
-
-# Create a superuser
-python manage.py createsuperuser
-
-# Start the Django development server
-python manage.py runserver
+3. Start the Django development server
+```bash
+    python manage.py runserver
 ```
 
 ## Contributing
